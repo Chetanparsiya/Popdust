@@ -1,0 +1,30 @@
+.first-image{
+  height: 400px;
+}
+.first-image-title a{
+color:white;
+font-family: 
+font-size:32px;
+}
+.author-info li{
+  padding: 0 20px;
+  padding-top:0;
+  text-transform: uppercase; 
+  display: inline-block;
+}
+.author-name:after{
+  content: '/';
+  padding: 0 4px 0 9px;
+}
+
+.author-name, .social-date{
+  display: inline;
+  font-size: 12px;
+  font-family: 'PT Serif', serif;
+  position: relative;
+  color:white;
+  left:100px;
+  letter-spacing: .1em;
+  font-weight: 200;
+
+}
