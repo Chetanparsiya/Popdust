@@ -31,7 +31,7 @@ a{
 }*/
 .logo img:hover{
   color:blue;
-  border: 1px solid red;
+  border: 1px solid blue;
 }
 /* Used for the menu list */
 .menu{
