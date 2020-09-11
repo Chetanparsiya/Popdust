@@ -9,33 +9,41 @@ a{
   text-decoration: none;
 }
 /* mytop is topbar class */
-.mytop{
-  position: relative;
+.topbar{
+  padding: 10px 20px;
+  background-color: white;
   height: 60px;
   box-shadow: 0 0 5px 0;
-  display: flex;
 }
 
 /* Used for three dots */
 .menu-icon{
-  margin: 20px 50px 20px;
+  margin-left: 10px;
+  float:left;
+  width:100px;
 }
 
 
 /*Used for the logo */
 .inside{ 
-  margin: 5px 50px 0px
+  
  }
-/*.logo{
-  margin: 20px 50px 20px;
-}*/
+.logo{
+ float:left;
+ width: 300px;
+}
 .logo img:hover{
   color:blue;
   border: 1px solid blue;
 }
 /* Used for the menu list */
 .menu{
-  margin: -18px 80px;
+  margin-top: 0px;
+  float:left;
+  padding-top: 0px;
+}
+.menu ul {
+  margin-top: 0;
 }
 
 .menu-items{
@@ -46,6 +54,10 @@ a{
 ul{
   list-style-type: none;
   padding:0;
+}
+.author-info ul{
+  display: flex;
+  padding-right: 20px
 }
 .menu li{
   padding: 0 20px;
@@ -58,25 +70,16 @@ a:hover{
 }
 /*Used for the Social Links */
 .social-links{
-  position: absolute;
-  top:10px;
-  right: 80px;  
+  width: 200px;
+  float:right;
+  
 }
 .social-links>div{
-  line-height: 1.7px;
   display: inline;
 }
-.social-links div > img{
-  width: 20px;
-  float: right;
-  padding: 10px
+.infinite-post-upper{
+  padding: 20px
 }
-/* Used for the search Tag */
-.search>img{
-  position: absolute;
-  top:20px;
-  width: 20px;
-  right:60px;
-}
+
 
 
