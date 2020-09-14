@@ -6,7 +6,7 @@ max-width: 1200px;
 .clearfix{
   clear: both;
 }
-  .first-image{
+.first-image{
   position: relative;
   height: 500px;
 }
@@ -71,7 +71,6 @@ font-size:32px;
   display: inline;
   font-size: 12px;
   font-family: 'PT Serif', serif;
-  
   color:white;
   left:100px;
   letter-spacing: .1em;
@@ -81,8 +80,9 @@ font-size:32px;
 
 /* Third Row start */
 .third-row{
-  
-  margin:40px;
+  display: inline-block;
+  width:100%;
+  margin-top: 30px;
 }
 .third-row .column{
   float: left;
@@ -90,7 +90,7 @@ font-size:32px;
 .infinite-post-1 li:last-child{
   justify-content: flex-end;
   float:right;
-  width:calc(100%-120px);
+  width:calc(100% - 120px);
   text-align: center;
 
 }
@@ -118,23 +118,38 @@ font-size:32px;
   padding: 10px;
   padding-bottom: 20px; 
 }
+.sidebar .column{
+  padding:0 10px;
+}
 .sidebar img{
-  width: 20%;
-  height: 50px;
-  float:right;
+  width:100%;
+  margin-top: 20px;
+  
 }
 .sidebar-full-post{
   padding-bottom: 20px;
+  display: inline-block;
+  width:100%;  
 }
+
 .sidebar-content{
   padding: 10px;
 }
 
 .sidebar a{
+  line-height: normal;
   font-family: 'PT Serif', serif;
   font-size: 17px;
 }
+.sidebar-text{
+  width:75%;
+  float:left;
+}
 
+.sidebar-image{
+  width:25%;
+  float:left;
+}
 /* infinite Scroll bar */
 .infinite-scroll>div{
   
@@ -162,9 +177,7 @@ font-size:32px;
 .infinite-post-image{
   width:100%;
 }
-.sidebar{
-  margin:0 70px;
-}
+
 .infinite-scroll{
   margin:0 10px;
   font-family: 'PT Serif','serif';
@@ -176,9 +189,7 @@ font-size:32px;
 
   font-family: 'Roboto' 'sans-serif'; 
 }
-.second-row-full{
-  height: 100px
-}
+
 .second-row-content{
   font-family: 'PT Serif','serif';
   font-size: 18px;
@@ -280,8 +291,8 @@ font-size:32px;
 .infinite-social-links .fa-reddit-alien {
   background:tomato;
 }
-/*
+
 .main-posts{
   width: 80%;
   margin: 25px auto 45px;
-}*/
+}

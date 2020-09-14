@@ -1,8 +1,17 @@
+@media(min-width:1200){
+  
+}
+@media(min-width:992px) and (max-width:1199px){
+  
+}
+@media(min-width:768px) and (max-width:991px){
+  
+}
+
 body{
   margin: 0;
   font-size:1.6em;
   font-family: 'Open Sans','sans-serif';
-  @media screen and (max-width: 1)
 }
 /* Changes the color of entire page link */
 a{
@@ -19,7 +28,8 @@ a{
 
 /* Used for three dots */
 .menu-icon{
-  padding-top:10px;
+  font-size: 20px;
+  padding-top:15px;
   margin-left: 10px;
   float:left;
   width:100px;
@@ -31,6 +41,7 @@ a{
   
  }
 .logo{
+padding-top: 5px;
  float:left;
  width: 300px;
 }
@@ -43,7 +54,7 @@ a{
 
   margin-top: 0px;
   float:left;
-  padding-top: 5px;
+  padding-top: 7px;
 }
 .menu ul {
   margin-top: 0;
@@ -73,7 +84,7 @@ a:hover{
 }
 /*Used for the Social Links */
 .social-links{
-  padding-top: 10px;
+  padding-top: 13px;
   width: 200px;
   float:right;
   font-size:20px;  
@@ -87,6 +98,8 @@ a:hover{
 .infinite-post-upper{
   padding: 20px
 }
-
+.social-i {
+  width:100%;
+}
 
 
