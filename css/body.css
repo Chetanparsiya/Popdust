@@ -1,4 +1,12 @@
-.first-image{
+
+.body{
+width:100%;
+max-width: 1200px;
+}
+.clearfix{
+  clear: both;
+}
+  .first-image{
   position: relative;
   height: 500px;
 }
@@ -21,16 +29,22 @@ font-size:32px;
 }
 .second-row{
   margin-left:35px;
-  height: 400px;
+  
 }
 .second-row .column{
   margin-left: 5px;
   margin-top: 10px; 
   float:left;
   padding:0 5px; 
-  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+  
   width: 23%;
   
+}
+
+.second-row .second-row-full{
+  padding: 10px;
+  margin-top:-5px;
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .second-row .column img{
   height: 200px;
@@ -67,6 +81,7 @@ font-size:32px;
 
 /* Third Row start */
 .third-row{
+  
   margin:40px;
 }
 .third-row .column{
@@ -136,6 +151,7 @@ font-size:32px;
 
 .infinite-social-links > div{
   float:right;
+  padding-left: 10px; 
   display: inline
 }
 
@@ -217,3 +233,55 @@ font-size:32px;
   border-radius: 5px;
   width:100px;
 }
+/* Infinite Social Links */
+.infinite-social-links ul {
+  overflow: auto;
+}
+
+.infinite-social-links ul li {
+  list-style-type: none;
+  float: left;
+}
+
+.infinite-social-links ul li a i {
+  background: #205D7A;
+  color: #fff;
+  width: 35px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 10px;
+  padding-top: 15%;
+}
+
+.infinite-social-links .fa-facebook-f {
+  background:#3b5998
+} 
+.infinite-social-links .fa-linkedin {
+  background:#007bb6
+}
+.infinite-social-links .fa-twitter {
+  background:#00aced
+}
+.infinite-social-links .fa-pinterest-p {
+  background:#dd4b39
+}
+
+.infinite-social-links .fa-tumblr {
+  background:#205D7A
+
+}
+.infinite-social-links .fa-envelope {
+  background:grey
+
+} 
+
+.infinite-social-links .fa-reddit-alien {
+  background:tomato;
+}
+/*
+.main-posts{
+  width: 80%;
+  margin: 25px auto 45px;
+}*/
