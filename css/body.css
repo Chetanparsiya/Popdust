@@ -28,7 +28,9 @@ font-size:32px;
   display: inline-block;
 }
 .second-row{
-  margin-left:35px;
+  display: flex;
+  width: 100%;
+  
   
 }
 .second-row .column{
@@ -47,7 +49,7 @@ font-size:32px;
   box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .second-row .column img{
-  height: 200px;
+  
   width:100%;
 }
 
@@ -87,11 +89,9 @@ font-size:32px;
 .third-row .column{
   float: left;
 }
-.infinite-post-1 li:last-child{
-  justify-content: flex-end;
-  float:right;
+.post-author-info li:last-child{
   width:calc(100% - 120px);
-  text-align: center;
+  text-align: right;
 
 }
 .third-row .infinite-scroll{
@@ -235,14 +235,16 @@ font-size:32px;
 .keep-reading a{
   color:white;
   font-size: 14px;
+  padding: 10px 20px;
+  background-color: black;
+  border-radius: 5px;
 }
 .keep-reading{
   display: block;
   text-align: center;
-  padding: 10px 30px;
-  background-color: black;
+ 
   border-radius: 5px;
-  width:100px;
+  width:100%;
 }
 /* Infinite Social Links */
 .infinite-social-links ul {
@@ -291,8 +293,15 @@ font-size:32px;
 .infinite-social-links .fa-reddit-alien {
   background:tomato;
 }
-
+.tag-social-links{
+  line-height: 2;
+}
 .main-posts{
   width: 80%;
   margin: 25px auto 45px;
+}
+.infinte-post-tag{
+  width:55%;
+  display: inline-block;
+  float: left;
 }
